@@ -33,9 +33,3 @@ gallery.addEventListener('click', e => {
         });
     }
 });
-
-document.querySelector('form').addEventListener('submit', function(e) {
-    e.preventDefault();
-    alert('Message sent successfully!');
-    // Add form submission code here
-});
