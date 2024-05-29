@@ -95,7 +95,7 @@ body {
     }
 }
 
-/* Hero Section */
+/* Welcome Section */
 .me {
     height: 150vh;
     background: url('me.jpg') no-repeat center center/cover;
@@ -114,7 +114,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.6); /* Optional: Add a dark overlay */
+    background: rgba(0, 0, 0, 0.6); 
 }
 
 .me-content {
