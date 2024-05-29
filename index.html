@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel's | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <div class="logo-container">
+                    <a href="#home">
+                        <img src="logo.png" alt="Your Logo" class="logo">
+                    </a>
+                </div>
+            </div>
+            <div class="navbar-toggle" id="navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="navbar-menu" id="navbar-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main id="home">
+        <section class="me">
+            <div class="me-content">
+            <h1>Hello! I'm Daniel.</h1>
+            <p>Welcome to my Portfolio!</p>
+        </div>
+        </section>
+    </main>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+        <p>
+            Hello! My name is Marjun Daniel Lambino, and I am a passionate programmer and a dedicated origami artist. I specialize in C++ and Web develpoment, and I also create intricate and unique origami pieces.
+        </p>
+        <p>
+            I am currently studying in Exact Colleges of Asia, where I'm developing a strong foundation in various programming languages, including Python, JavaScript, and C++.
+        </p>
+        <p>
+            Alongside my programming studies, I have cultivated my love for origami. This ancient art form has taught me patience, precision, and creativity. I enjoy experimenting with new designs and pushing the boundaries of traditional origami.
+        </p>
+        <p>
+            My unique combination of technical expertise and artistic skills allows me to approach problems from multiple angles and create innovative solutions. I am always looking for new challenges and opportunities to grow both as a programmer and an artist.
+        </p>
+        <p>
+            Please take a moment to explore my portfolio, and feel free to reach out if you have any questions or would like to collaborate on a project.
+        </p>
+        </div>
+    </section>
+    
+    <section id="portfolio">
+        <h2>My Work</h2>
+        <div class="filter-buttons">
+            <button data-filter="all">All</button>
+            <button data-filter="programming">Programming Projects</button>
+            <button data-filter="origami">Origami Art</button>
+        </div>
+        <div class="gallery">
+            <div class="gallery-item" data-category="programming">
+                <img src="rgbkb.jpg" alt="RGBkb">
+                <p>RGB Keyboard</p>
+            </div>
+            <div class="gallery-item" data-category="programming">
+                <img src="gunnedgame.jpg" alt=" Gunned">
+                <p>Gunned Game(unity)</p>
+            </div>
+            <div class="gallery-item" data-category="origami">
+                <img src="bdragon.jpg" alt="Origami Bahamut Dragon">
+                <p>Bahamut Dragon</p>
+            </div>
+            <div class="gallery-item" data-category="origami">
+                <img src="roses.jpg" alt="Origami Pentagonal Rose">
+                <p>Pentagonal Rose</p>
+            </div>
+            <div class="gallery-item" data-category="origami">
+                <img src="boquet.jpg" alt="Origami Pentagonal RoseB">
+                <p>Pentagonal Rose Boquet</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="cv">
+        <h2>Curriculum Vitae</h2>
+        <div class="cv-container">
+            <h3>Education</h3>
+            <ul class="cv-list">
+                <li>
+                    <strong>Bachelor of Science in Information System</strong><br>
+                    Exact Colleges of Asia
+                </li>
+                <li>
+                    <strong>Technology and Livelihood Education: ICT</strong>
+                    San Juan Highschool
+                </li>
+            </ul>
+            <h3>Skills</h3>
+            <ul class="cv-list">
+                <li>Programming Languages: Python, JavaScript, C++, C#</li>
+                <li>Web Development: HTML, CSS, Vue, Bootsrap</li>
+                <li>Origami: Simple to Super Complex </li>
+            </ul>
+        </div>
+    </section>
+    
+    <!-- Not yet functional -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MDLL</p>
+        <div class="socials">
+            <a href="https://www.facebook.com/daniel.lambino.52/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/mr.jndn?igsh=MTJpdm5jNTc2d3Npeg==" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/xylonqt" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
